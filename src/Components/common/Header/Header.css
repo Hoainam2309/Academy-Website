@@ -1,8 +1,6 @@
-/* HEAD */
 .head {
-    padding: 20px 0;
-    color: #1eb2a6;
-    ;
+    padding: 20px;
+    color: #000;
 }
 .logo h1 {
     font-size: 35px;
@@ -10,12 +8,14 @@
 }
 .head .icon {
     margin-left: 10px;
-}
-/* HEADER*/
-header {
+  }
+  /*--------head------------*/
+  /*--------header------------*/
+  header {
     background-color: rgba(255, 255, 255, 0.2);
-}
-header .nav {
+    margin: 0 30px;
+  }
+  header .nav {
     display: flex !important;
   }
   header li {
@@ -41,7 +41,7 @@ header .nav {
   .toggle {
     display: none;
   }
-
+  /*--------header------------*/
   @media screen and (max-width: 768px) {
     .start {
       clip-path: none;
